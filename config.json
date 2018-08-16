@@ -1,0 +1,51 @@
+{
+  "mode": "trader",
+  "account": {
+    "test_broker": "9999",
+    "test_user": "095245",
+    "broker": "",
+    "user": ""
+  },
+  "front": {
+    "test_trader": "tcp://218.202.237.33 :10002",
+    "test_market": "tcp://218.202.237.33 :10012",
+    "trader": "",
+    "market": ""
+  },
+  "bayes": [
+    {
+      "switch": 1,
+
+      "main": "rb1801",
+      "submain": "rb1804",
+
+      "u1_squ": 29.77165356018525,
+      "e2": 206.66970840196723,
+      "u2_squ": 28.601563860001693,
+
+      "gap_len": 180,
+      "limit_ratio": 0.002,
+
+      "max_order_num": 10,
+      "tick": 1,
+      "slippage_allowed": 2
+    },
+    {
+      "switch": 0,
+
+      "main": "i1801",
+      "submain": "i1709",
+
+      "u1_squ": 29.77165356018525,
+      "e2": 206.66970840196723,
+      "u2_squ": 28.601563860001693,
+
+      "gap_len": 180,
+      "limit_ratio": 0.001,
+
+      "max_order_num": 20,
+      "tick": 1,
+      "slippage_allowed": 2
+    }
+  ]
+}

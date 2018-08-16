@@ -1,0 +1,21 @@
+# 文件夹
+.vs/
+x64/
+Debug/
+CTP_API/
+CTP_API_mini/
+logs/
+
+*.sdf
+*.suo
+*.exp
+*.pdb
+*.cd
+*.dll
+*.user
+*.vcxproj
+*.filters
+*.sln
+
+# API的.con文件
+*.con
